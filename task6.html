@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        /* Internal CSS */
+        .card {
+            position: relative;
+            margin: 10px;
+            width: 200px;
+            height: 300px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-2"></div>
+        <div class="col-4"><img src="C:\Users\NIKITA UNPANE\Downloads\task6(1).png" width="128" height="24.76"></div>
+        <div class="col-6"></div>
+    </div>
+
+    <div class="row" style="margin-top: 20px;">
+        <div class="col-1" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px;"></div>
+        <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center;">
+            <p style="margin-top: 10px;">Pizzas</p>
+        </div>
+        <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center">
+            <p style="margin-top: 10px;">Sides</p>
+        </div>
+        <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center">
+            <p style="margin-top: 10px;">Desserts</p>
+        </div>
+        <div class="col-2" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center">
+            <p style="margin-top: 10px;">Drinks</p>
+        </div>
+        <div class="col-2"
+            style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center; background-color: red;">
+            <p style="margin-top: 10px;color: white;"><b>Deals</b></p>
+        </div>
+        <div class="col-1" style="border: 1px solid rgb(232, 231,231,0.911); height: 50px; text-align: center"></div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="bg-image" style="background-image: url('./assets/pic3.jpg');height: 1500px;">
+            <h1 style="text-align: center; ">Our Deals</h1>
+            <p style="text-align: center; margin-top: 30px;">Check out the latest meal deals available from Pizza Hut
+            </p>
+
+            <div class="row">
+                <div class="col-2"></div>
+
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/pic4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">1 Plus 1 San Francisco Style</h4>
+                            <p class="card-text">Choose from 2 of your favorite personal pizza with new San Fransisco Crust
+                            </p><br><br><br><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz2.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Super Value Deal:2 Medium Pizzas starting at Rs 649</h4>
+                            <p class="card-text"> Choose any 2 of your favorite medium pizza
+                            </p><br><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 10px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz3.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Flavour Fun Box of 4</h4>
+                            <p class="card-text">Get 4 assorted Flavor Fun Pizzas.
+                                Perfect pizza crust topped with exciting new sauces, cheesy dressing & your favorite
+                                toppings
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 20px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz4.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Super Value Deal : 2 Personal Pizzas starting at Rs 299</h4>
+                            <p class="card-text">Choose any 2 of your favorite personal pizza
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 30px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <!-- row 1 ends -->
+
+            <div class="row">
+                <div class="col-2"></div>
+
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz5.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Super Saver Meal Combo starting at Rs.799 (Save Upto 38%)</h4>
+                            <p class="card-text">2 Med Pizza of Choice, 1 Classic Breadstix, 1 Creamy Breadstix, 2 Pepsi
+                                Pet Bottles
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: -14px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz6.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Hut Treat Box 4 San Francisco Style</h4>
+                            <p class="card-text">2 Med Pizza with new San Fransisco Crust, 1 Classic Breadstix,
+                                1 Creamy Breadstix, 2 Pepsi Pet Bottles
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: -8px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz7.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Meal for 2 with Pizza & Classic Bread Stix</h4>
+                            <p class="card-text">2 Personal Pizza Upto Veg Signature, 1 Classic Bread Stix
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 40px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz8.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Stuffed Crust - Meal for 2</h4>
+                            <p class="card-text">Delicious Meal for 2 with great choice of pizzas and signature crusts
+                                with Pepsi
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 65px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <!-- row 2 ends -->
+
+            <div class="row">
+                <div class="col-2"></div>
+
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz9.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">My Box Starting at Rs.239</h4>
+                            <p class="card-text">Meal for 1: 1 Personal Pizza, 2 Pc Plain Garlic Bread & 1 Pepsi Pet
+                                Bottle starting at Rs 239
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 45px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz10.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">MY BOX PASTA starting @229</h4>
+                            <p class="card-text">Meal for 1: 1 Pasta, 2 Pc Plain Garlic Bread & 1 Pepsi Pet Bottle
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 70px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz11.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Double Treat (2 Pizzas) with Cornetto Double Chocolate</h4>
+                            <p class="card-text">2 Personal Pizzas (Upto Veg Signature),
+                                1 Classic Bread Stix & 2 Cornetto Double Chocolate (105 ml)
+                                <a href="#" class="btn btn-success"
+                                    style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 30px;"><b>View
+                                        more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="card" style="width:230px;height: 400px;">
+                        <img class="card-img-top" src="./assets/piz12.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">My Box with Choco Sundae</h4>
+                            <p class="card-text">1 Personal Pizza of choice, 2 pc Plain Garlic Bread, 1 Pepsi Pet & 1
+                                Choco Sundae cup (100 ml)
+                            </p><br>
+                            <a href="#" class="btn btn-success"
+                                style="width: 100%;justify-content: center;align-items: center ;padding-left: 10px;margin-top: 45px;"><b>View
+                                    more</b></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+            </div>
+            <!-- row 3 ends -->
+            <style>
+                .footer {
+                    background-color: black;
+                    width: 100%;
+                    height: 500px;
+                    position: relative;
+                }
+            </style>
+            <div class="footer">
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-2"><br> <br><b style="color: white;font-family: fira sans;">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Order Now</b>
+                        <ul style="color: white;font-family: fira sans; list-style: none;">
+                            <li>Deals</li>
+                            <li>Pizza</li>
+                            <li>Sides</li>
+                            <li>Drinks</li>
+                            <li>Desserts</li>
+                        </ul>
+                    </div>
+                    <div class="col-2"><br> <br><b
+                            style="color: white;font-family: fira sans;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; About
+                            us</b>
+                        <ul style="color: white;font-family: fira sans; list-style: none;">
+                            <li>About us</li>
+                            <li>Contactless delivery</li>
+                            <li>Nutrition</li>
+                        </ul>
+                    </div>
+                    <div class="col-2"><br> <br><b
+                            style="color: white;font-family: fira sans;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Our
+                            Policies</b>
+                        <ul style="color: white;font-family: fira sans; list-style: none;">
+                            <li>Terms & Conditions</li>
+                            <li>FAQs&help</li>
+                        </ul>
+                    </div>
+                    <div class="col-2"><br> <br><b
+                            style="color: white;font-family: fira sans;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; Visit
+                            Pizza Hut</b>
+                        <ul style="color: white;font-family: fira sans; list-style: none;">
+                            <li>Locate a store</li>
+                            <li>Global Blog</li>
+                        </ul>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+                <!-- Footer ends -->
+                <div class="play">
+                    <div class="row">
+                        <div class="col-4"></div>
+                        <div class="col-2" style="margin-left: 130px;"><img src="./assets/st.jpg" width="130px"></div>
+                        <div class="col-2" style="margin-left: -100px;"><img src="./assets/gplay.jpeg" width="130px">
+                        </div>
+                        <div class="col-4"></div>
+                    </div>
+                    <!-- play store  -->
+
+                    <div class="row">
+                        <div class="col-6 text-center" >
+                          <p style="color: white;">Help us in serving you better
+                            <button type="button" class="btn btn-light">Give Feedback</button>
+                          </p>
+                        </div>
+                        <div class="col-6 text-center" >
+                          <h5 style="color: white;">Follows us</h5>
+                          <img src="./assets/fb.png">&nbsp;&nbsp;&nbsp;
+                          <img src="./assets/tw.png">&nbsp;&nbsp;&nbsp;
+                          <img src="./assets/insta.png">&nbsp;&nbsp;&nbsp;
+                          <img src="./assets/yt.png">
+                        </div>
+                      </div>
+                      <br>
+          
+
+                    <div class="row">
+                        <div class="col-12" style="margin-top: 15px; color: #78838c;">
+                            <p style="text-align: center;text-emphasis-color: white;">Order a delicious pizza on the go,
+                                anywhere, anytime. Pizza Hut is happy to assist you with your home delivery.
+                                Every time you order, you get a hot and fresh pizza delivered at your</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="color: #78838c;">
+                            <p style="text-align: center;text-emphasis-color: white;">doorstep in less than thirty
+                                minutes. *T&C Apply.</p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="color: #78838c;">
+                            <p style="text-align: center;text-emphasis-color: white;">Hurry up and place your order now!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12" style="color: #78838c;">
+                            <p style="text-align: center;">© 2023 Pizza Hut India. All rights
+                                reserved. License Number: 10017011004220</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
